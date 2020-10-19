@@ -2,11 +2,14 @@
     background-color: #777;
     border: 1px solid black;
     margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     width: 10em;
+    min-height: 6em;
     padding: 0.5em;
 }
 
-h1 {
+.item > h1 {
     font-size: large;
     font-weight: normal;
     margin-bottom: 0.2em;

@@ -10,6 +10,7 @@ function App() {
     const [ selectedItem, setSelectedItem ] = useState(getRandomItem(items))
     return (
         <div className="App">
+            <h1>Random item of the day</h1>
             { <Item item={ selectedItem } /> }
             <button onClick={ () => setSelectedItem(getRandomItem(items)) }>New random item</button>
         </div>
