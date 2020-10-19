@@ -1,0 +1,14 @@
+.item {
+    background-color: #777;
+    border: 1px solid black;
+    margin: auto;
+    width: 10em;
+    padding: 0.5em;
+}
+
+h1 {
+    font-size: large;
+    font-weight: normal;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+}
